@@ -1,0 +1,15 @@
+@media(max-width:1005px){
+    header{
+        display:flex;
+        padding-left:25px !important;
+        padding-right:25px !important;
+    }
+    header > .nav-links{
+        display:none;
+    }
+    header > .fa-bars{
+        display:flex !important;
+        font-size: 26px;
+        cursor: pointer;
+    }
+}
