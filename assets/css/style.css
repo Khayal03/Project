@@ -30,3 +30,87 @@ header > .nav-links a > img{
 header .fa-bars{
     display:none;
 }
+/* Introsection Start */
+
+.introsection{
+    padding-left: 112.5px;
+    padding-right: 112.5px;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.intro-left-side h1{
+    color: #000;
+    font-family: Roboto;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 83px;
+    letter-spacing: 2px;
+    padding-top: 133.7px;
+    padding-bottom: 25px;
+    min-width: 715px;
+   
+}
+.intro-left-side span{
+    color:#FF8A56 ;
+}
+.intro-left-side p{
+    color:#666666 ;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    margin-bottom: 20px;
+}
+.intro-left-side .Book-a-call button{
+    background: #000;
+    color: #ffffff;
+    height: 58px;
+    width: 151px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.intro-left-side .Book-a-call a{
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    padding-left: 70px;
+    color: #000;
+}
+.intro-left-side .Book-a-call img{
+    margin-left:30px ;
+}
+.introsection .intro-right-side{
+    /* min-width:600px; */
+}
+.intro-right-side img{
+    padding-top: 72px;
+    height: 645px;
+    width: 600px;
+}
+/* Introsection End */
+
+
+/* Trusted by Start */
+
+.trusted-by h5{
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom:45px ;
+}
+.trusted-by-companies{
+    display:flex;
+    justify-content: space-between;
+    padding-left: 289px;
+    padding-right: 288px;
+}
+.trusted-by-company{
+    margin-right: 100px;
+}
+/* Trusted by end */
